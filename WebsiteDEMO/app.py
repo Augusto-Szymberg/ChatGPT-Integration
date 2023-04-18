@@ -4,7 +4,7 @@ from flask import Flask, request, render_template, make_response
 
 app = Flask(__name__)
 
-openai.api_key = "your api key"
+openai.api_key = "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"
 
 prompt = "Tu trabajo es recomedar a el usuario el mejor platillo para sus gustos personales del menu"
 messages = [{"role": "system", "content": prompt}]
